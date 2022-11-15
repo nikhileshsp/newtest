@@ -1,0 +1,62 @@
+
+
+.one{
+    text-align: center;
+    }
+    
+.one01{
+    text-align: right;
+    }
+    
+.one02{
+    text-align: left;
+    }
+    
+.one03{
+    text-align: justify;
+    }
+    
+    .two{
+    text-decoration: underline;
+    }
+    
+    .two01{
+    text-decoration: overline;
+    }
+    
+    .two02{
+    text-decoration: line-through;
+    }
+    
+    .three{
+        text-transform: capitalize;
+    }
+    .three01{
+       text-transform: lowercase;
+    }
+    .three02{
+       text-transform: uppercase;
+    }
+    
+    
+    
+    .four{
+    letter-spacing: 12px;
+    
+    }
+    
+    .five{
+  word-spacing: 72px;
+    }
+    
+    .six{
+    
+    text-transform: capitalize;
+    font-size: 30px;
+    text-shadow: 3px 4px 2px purple;
+    }
+   
+    
+
+    
+    
