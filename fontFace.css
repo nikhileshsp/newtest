@@ -1,0 +1,9 @@
+@font-face {
+    font-family: font1;
+    src: url(font/Salt\ Debris\ \(1\).otf);
+}
+
+h1{
+    font-family: font1;
+    color: greenyellow;
+}
