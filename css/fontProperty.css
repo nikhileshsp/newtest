@@ -1,0 +1,43 @@
+.one{
+color: orange;
+}
+
+.two{
+font-size: 40px;
+}
+
+.three{
+    font-style: italic;
+    
+}
+.three01{
+    font-style: bold;
+    font-weight: bold;
+}
+.three02{
+    font-style:normal;
+}
+
+
+
+.four{
+font-variant: small-caps;
+
+
+}
+
+.five{
+font-weight: bolder;
+}
+
+.six{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.six01{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.six02{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
