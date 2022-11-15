@@ -7,20 +7,65 @@
     <title>Registration Form</title>
 </head>
 <body>
-    <table border="2" >
+    <table border="5">
         <tr>
-            <td><legend><b> Registration form. Fill The Details </b></legend></td>
+            <td> Registration form. Fill The Details </td>
         </tr>
         <tr>
             <td>
-                <form action="#" method="post" autocomplete="on">
-                FULL NAME<input type="text" placeholder="Enter Full Name"size="150px" ><br> <br> <br>
-                Father Name <input type="text" placeholder="Enter father Name" size="150px"><br> <br> <br>  
-                Mobile NO <input type="number" name="Mobile" placeholder="Enter the mo.no"size="150px"><br> <br> <br> 
-                Email Address <input type="email" name="Email id" placeholder="Enter the email" size="150px" > <br> <br> <br> 
-                Address <input type="text" placeholder="enter Address" size="150px"> <br> <br> <br> 
+                <form size="20px" >
+                FULL NAME<input type="text" placeholder="Enter Full Name" ><br> <br> <br>
+                Father Name <input type="text" placeholder="Enter father Name" ><br> <br> <br>  
+                Mobile NO <input type="number" name="Mobile" placeholder="Enter the mo.no"><br> <br> <br> 
+                Email Address <input type="email" name="Email id" placeholder="Enter the email"  > <br> <br> <br> 
+                Address <input type="text" placeholder="enter Address" > <br> <br> <br> 
                 Photo <input type="file" name="Photo" id=""><br> <br> <br> 
                 
+                country <select name="country" id="">country
+                    <option value="india">india</option>
+                    <option value="pakistan">pakistan</option>
+                    <option value="myanmar">myanmar</option>
+                    <option value="shri lanka">shri lanka</option>
+                    <option value="bangladsh">bangladsh</option>
+                    <option value="china">china</option>
+                    <option value="Afganistan">Afganistan</option>
+                    <option value="Dubai">Dubai</option>
+                </select><br><br> <br>
+
+                City  <select name="city" id="">
+                    <option value="other">other</option>
+
+                    <option value="nagpur">nagpur</option>
+                    <option value="pune">pune</option>
+                    <option value="nanded">nanded</option>
+                    <option value="aurangabad">aurangabad</option>
+                    <option value="nashik">nashik</option>
+                    <option value="akola">akola</option>
+                    <option value="thane">thane</option>
+                </select>
+                <br><br>
+
+                <tr>
+                    <th>EDUCATION DETAILS</th>
+                </tr> 
+                
+                <tr> <br>
+                    <td>Sr.No</td>
+                    <td>Education</td>
+                    <td>University</td>
+                    <td>marks Obtain</td>
+                    <td>Grade</td>
+                </tr>
+
+                <tr>
+                    <td>01</td>
+                    <td>SSC<input type="checkbox" name="ssc" id=""></td>
+                    <td>Amravati<input type="checkbox" name="university" id=""></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                
+
             </form>
             </td>
         </tr>
