@@ -4,10 +4,14 @@
     background-color: limegreen;
     background-image: url(CYWX_1017.jpg);
     overflow: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
     
 
     
 }
+
 
 .box2{
     width: 400px;
@@ -17,4 +21,19 @@
     background-attachment: fixed;
     overflow: auto;
     color: white;
+    
+}
+
+.box3{
+    width: 400px;
+    height: 350px;
+    background-color: limegreen;
+    background-image: url(CYWX_1017.jpg);
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    
+
+    
 }
