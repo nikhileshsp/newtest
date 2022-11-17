@@ -8,6 +8,7 @@ ul li {
     list-style: none; 
     width: 120px;
     height: 55px;
+    
    
    
 }
@@ -33,4 +34,11 @@ h1{
 .position{
     position: absolute;
     top:160px;
+}
+
+table{
+    position: absolute;
+    top: 1200px;
+    border: chartreuse;
+    
 }
