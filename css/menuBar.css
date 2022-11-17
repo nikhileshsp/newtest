@@ -1,28 +1,27 @@
 menu{
     position: fixed;
-    margin-left: 300px;
-    display: inline-block
-    
-    
+    margin-left: 300px;     
 }
-
-
 
 ul li {
     float: left;
-    margin: 5px;
-    list-style: none;
-    background-color: orange;
-    
-    width: 100px;
-    height: 40px;
-    padding: 10px;
-    border: 2px solid red;
+    list-style: none; 
+    width: 120px;
+    height: 55px;
+   
+   
 }
 
 ul li a{
     text-decoration: none;
-    font-weight: bolder;
+    font-size: 15px;
+    background-color: #ffa500;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;    
+     border: 2px solid red;
+     display: inline-block;
     
 
 }
