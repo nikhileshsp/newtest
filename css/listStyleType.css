@@ -1,0 +1,182 @@
+ .one{
+   
+    background-color: lightgreen;
+    display: inline-block;
+    width: 100px;
+    height: 130px;
+    border: 2px solid gold;
+    /* position: absolute; */
+    left: 100px;
+    top: 100px;
+    margin: 20px;
+    
+}
+.one li a{
+    /* color: orchid; */
+    text-decoration: none;
+}
+
+.one li{
+    color:red;
+    list-style-type: circle;
+    list-style-type: armenian;
+}
+
+
+
+
+
+
+
+
+.two{
+   
+    background-color:lightcoral;
+    display: inline-block;
+    width: 100px;
+    height: 130px;
+    border: 2px solid gold;
+    /* position: absolute; */
+    left: 100px;
+    top: 100px;
+    margin: 20px;
+    
+}
+.two li a{
+    color:red;
+    text-decoration: none;
+}
+
+.two li{
+    color:forestgreen;
+    list-style-type: decimal-leading-zero;
+    
+}
+
+
+
+
+.three{
+   
+    background-color:lightsteelblue;
+    display: inline-block;
+    width: 100px;
+    height: 130px;
+    border: 2px double olivedrab;
+    left: 100px;
+    top: 100px;
+    margin: 20px;
+    
+}
+.three li a{
+    color: yellow;
+    text-decoration: none;
+}
+
+.three li{
+    color:darkolivegreen;
+    list-style-type: circle;
+    
+}
+
+
+
+.four{
+   
+    background-color: lightgrey;
+    display: inline-block;
+    width: 100px;
+    height: 130px;
+    border: 2px solid gold;
+    /* position: absolute; */
+    left: 100px;
+    top: 100px;
+    margin: 20px;
+    
+}
+.four li a{
+    color: orchid;
+    text-decoration: none;
+}
+
+.four li{
+    color:darkgoldenrod;
+    list-style-type: upper-roman;
+    
+}
+
+
+
+.five{
+   
+    background-color: lightgrey;
+    display: inline-block;
+    width: 100px;
+    height: 220px;
+    border: 2px solid gold;
+    /* position: absolute; */
+    left: 100px;
+    top: 100px;
+    margin: 20px;
+    
+}
+.five li a{
+    font-size: 18px;
+    text-decoration: none;
+    color:darkolivegreen;
+}
+
+.five li{
+    color:red;
+    list-style-image: url(3-2-batman-logo-png-thumb.png);    
+}
+
+
+
+.six{
+    background-color: limegreen;
+    list-style-position: outside;
+    display: inline-block;
+
+}
+.six li a{
+    color: black;
+    /* background-color: lightseagreen; */
+    text-decoration: none;
+}
+
+.six li{
+    color:red;
+    list-style-type: square;
+    background-color: aqua;
+    
+}
+
+
+
+.seven{
+    background-color: lightskyblue;
+    list-style-position: inside;
+    display: inline-block;
+    margin: 40px;
+
+}
+.seven li a{
+    color: black;
+    /* background-color: lightseagreen; */
+    text-decoration: none;
+}
+
+.seven li{
+    color:red;
+    list-style-type: square;
+    background-color: sandybrown;
+    
+}
+
+
+
+
+
+
+
