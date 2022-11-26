@@ -5,6 +5,7 @@
     background-color: lightgoldenrodyellow;
     border: 3px solid green;
     margin: 0px auto;
+    
 }
 
 .header{
@@ -25,7 +26,33 @@
     height: 70px;
     background-color: sandybrown;
     float: left;
+    
+    
 }
+
+ul li{
+    float: left;
+    list-style: none;
+    margin-left: 50px;
+    background-color: darkgoldenrod;
+    width: 150px;
+    height: 43px; 
+    text-align: center;  
+}
+
+ul li:hover{
+    background-color: crimson;
+   
+}
+ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;   
+}
+ul li a:hover{
+    color: springgreen;
+}
+
 .nav{
     width: 900px;
     height: 30px;
