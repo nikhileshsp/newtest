@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.master{
+width: 1000px;
+height: 640px;
+background-color:limegreen;
+border: 5px double red;
+margin: 0px auto;
+flex-wrap: wrap;
+
+
+}
+.row1{
+    width: 1000px;
+    height: 100px;
+    background-color: mediumaquamarine;
+}
+
+.row2{
+    width: 1000px;
+    height: 40px;
+    background-color: slategrey;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border: 2px double orange;
+    box-sizing: border-box;
+
+
+}
+
+.row2_col1{
+    width: 200px;
+    height: 40px;
+    background-color: aquamarine;
+}
+.row2_col2{
+    width: 200px;
+    height: 40px;
+    background-color: red;
+}
+.row2_col3{
+    width: 200px;
+    height: 40px;
+    background-color: gray;
+}
+.row2_col4{
+    width: 200px;
+    height: 40px;
+    background-color: peru;
+}
+.row2_col5{
+    width: 200px;
+    height: 40px;
+    background-color: aquamarine;
+}
+
+.row3{
+    width: 1000px;
+    height: 200px;
+    background-color:lightseagreen;
+}
+
+.row3_col1{
+    width: 250px;
+    height: 200px;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.row3_col1_row1{
+    width: 250px;
+    height: 40px;
+    background-color: blueviolet;
+}
+.row3_col1_row1{
+    width: 250px;
+    height: 40px;
+    background-color: blueviolet;
+}
+.row3_col1_row2{
+    width: 250px;
+    height: 40px;
+    background-color: darkgrey;
+}
+.row3_col1_row3{
+    width: 250px;
+    height: 40px;
+    background-color: darkseagreen;
+}
+.row3_col1_row4{
+    width: 250px;
+    height: 40px;
+    background-color:springgreen;
+}
+
+.row4{
+    width: 1000px;
+    height: 150px;
+    background-color: coral;
+}
+
+.row5{
+    width: 1000px;
+    height: 100px;
+    background-color: orchid;
+    display: flex;
+    flex-direction: row;
+}
+
+.row5_col1{
+    width: 330px;
+    height: 100px;
+    background-color: tan;
+}
+.row5_col2{
+    width: 330px;
+    height: 100px;
+    background-color: slateblue;
+}
+.row5_col3{
+    width: 340px;
+    height: 100px;
+    background-color:thistle;
+}
+
+.row6{
+    width: 1000px;
+    height: 50px;
+    background-color: crimson;
+    text-align: center;
+   
+    
+}
+
+

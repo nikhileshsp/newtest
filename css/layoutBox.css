@@ -1,4 +1,4 @@
-.divmain{
+/* .divmain{
         width: 870px;
         height: 250px;
         background-color: thistle;
@@ -63,4 +63,58 @@ main{
     display: inline-block;
 
 
+} */
+
+
+main{
+    width: 800px;
+    height: 200px;
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: row;
+   
 }
+.div1{
+    width: 150px;
+    height: 150px;
+    background-color: lime;
+    /* display: flex; */
+   
+}
+.div2{
+    width: 150px;
+    height: 150px;
+    background-color: deepskyblue;
+    
+   
+}
+.div3{
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+    
+    
+}
+.div4{
+    width: 150px;
+    height: 150px;
+    background-color: forestgreen;
+    
+   
+}
+
+
+.div1,.div2,.div3,.div4{
+    margin:0px auto;
+    margin-top:20px;
+    
+
+
+}
+
+
+
+
+
+
+
