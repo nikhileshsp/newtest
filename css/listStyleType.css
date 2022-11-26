@@ -113,11 +113,12 @@
     display: inline-block;
     width: 100px;
     height: 220px;
-    border: 2px solid gold;
-    /* position: absolute; */
+    border: 10px double gold;
+    box-shadow: 2x 4px 3x blue;
     left: 100px;
     top: 100px;
     margin: 20px;
+    box-sizing: content-box;
     
 }
 .five li a{

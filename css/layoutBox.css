@@ -1,0 +1,66 @@
+.divmain{
+        width: 870px;
+        height: 250px;
+        background-color: thistle;
+         margin: 0px auto;
+         position: relative;
+         box-sizing: content-box;
+
+      
+        
+}
+main{
+    width: 820px;
+    height: 200px;
+    background-color: lime;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+   
+   
+}
+
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 4px double peru;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 2px;
+    background-image: url(01.jpg);
+    background-size: cover;
+
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    border: 4px double peru;
+    box-sizing: border-box;
+    display: inline-block;
+
+
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+    border: 4px double peru;
+    box-sizing: border-box;
+    display: inline-block;
+
+
+}
+.div4{
+    width: 200px;
+    height: 200px;
+    background-color:darkgoldenrod;
+    border: 4px double darkgray;
+    box-sizing: border-box;
+    display: inline-block;
+
+
+}

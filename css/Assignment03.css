@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.master{
+   position: absolute;
+   left: 500px; 
+}
+.main{
+    width: 800px;
+    height: 800px;
+    background-color: lightslategray;
+    display: inline-block;
+
+  
+}
+.col1{
+    width: 266px;
+    height: 700px;
+    background-color: sienna;
+    float: left;
+}
+.col2{
+    width: 266px;
+    height: 700px;
+    background-color: yellow;
+    float: left;
+    
+}
+.col3{
+    width: 266px;
+    height: 700px;
+    background-color: violet;
+    float: left;
+
+}
+
+.head{
+    width: 800px;
+    height: 100px;
+    background-color: coral;
+    display: inline-block;
+    
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    float: left;
+  
+    
+}
+
+.menu{
+    width: 700px;
+    height: 60px;
+    background-color: aqua;
+    display: inline-block;
+   
+
+}
+.main ul{
+    margin-left: 50px;
+}
+.main ul li{
+    background-color: darksalmon;
+    display: block;
+    list-style: none;
+    display: inline-block;
+   
+    padding: 20px;
+    
+    
+   
+
+   
+}
+
+
+.smallmenu{
+    width: 700px;
+    height: 40px;
+    background-color: red;
+    float: left;
+   
+}
+
+.footer{
+    width: 800px;
+    height: 50px;
+    background-color: cornflowerblue;
+   
+}

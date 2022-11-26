@@ -1,0 +1,62 @@
+
+.main{
+    width: 1000px;
+    height: 1000px;
+    background-color: lightgoldenrodyellow;
+    border: 3px solid green;
+    margin: 0px auto;
+}
+
+.header{
+    width: 1000px;
+    height: 100px;
+    background-color: lightpink;
+}
+.logo
+{
+    width: 100px;
+    height: 100px;
+    background-color: darkmagenta;
+    float: left;
+}
+
+.nav1{
+    width: 900px;
+    height: 70px;
+    background-color: sandybrown;
+    float: left;
+}
+.nav{
+    width: 900px;
+    height: 30px;
+    background-color: firebrick;
+    float: left;
+}
+.body{
+    width: 1000px;
+    height: 800px;
+    background-color: darkgoldenrod;
+}
+.row2-col1{
+    width: 333px;
+    height: 800px;
+    background-color: antiquewhite;
+    float: left;
+}
+.row2-col2{
+    width: 333px;
+    height: 800px;
+    background-color: dodgerblue;
+    float: left;
+}
+.row2-col3{
+    width: 333px;
+    height: 800px;
+    background-color: deeppink;
+    float: left;
+}
+.footer{
+    width: 1000px;
+    height: 100px;
+    background-color: cornflowerblue;
+}
