@@ -21,8 +21,10 @@
    
     background-color:darkcyan;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+   flex-direction: row wrap;
+   justify-content: flex-start;
+   border-radius: 10px;
+   
     
     
 }
@@ -31,7 +33,6 @@
     background-color: tan;
     width: 100px;
     display: flex;
-    flex-flow: row wrap;
     font-size: 50px;
     justify-content: center;
     align-content: center;
@@ -42,7 +43,7 @@
 
 menu{
     /* background-color: slateblue; */
-    width: 500px;
+    /* width: 500px; */
     display: flex;
     flex-flow: row wrap;
     margin-left: 100px;    
@@ -54,14 +55,16 @@ menu ul li{
     flex-flow: row wrap;
     float: left;
     margin: 10px 30px;
+    align-content: flex-start;
+
    
 }
 
  ul li a{
     text-decoration: none;
     display: flex;
+    flex-flow: row wrap;
     flex-direction: column;
-    align-content: flex-end;
     color: white;
 }
 
