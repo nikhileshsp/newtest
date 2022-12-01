@@ -51,6 +51,11 @@ menu{
     
 }
 
+ul{
+   
+   
+}
+
 menu ul li{
     list-style: none;
     display: flex;
@@ -68,6 +73,8 @@ menu ul li{
     flex-flow: row wrap;
     flex-direction: column;
     color: white;
+  
+
 }
 
 .box2{
@@ -128,6 +135,7 @@ menu ul li{
     height: 80px;
     border-radius: 50px;
     box-shadow: 5px 3px 15px black;
+    
 
 }
 
@@ -205,8 +213,206 @@ menu ul li{
 .box5{
     
     background-color:gold;
+    display: flex;
+    flex-flow: column wrap;
     
 }
+
+.boxes5{
+    
+        color: white;
+        text-align: center;
+        margin: 5px;
+        padding: 10px; 
+        border-radius: 5px;
+        box-shadow: 5px 3px 15px black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap ;
+        flex-grow: 1;
+
+
+    }
+    
+.box5_1{
+    background-color: lightgrey;
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 10;
+
+    
+} 
+
+.item1{
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+     
+    
+    border-radius: 5px;
+    box-shadow: 5px 3px 15px black;
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+
+.item1{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: cadetblue;
+    box-shadow: 5px 3px 15px black;
+
+}
+
+.items01{
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+      width: 100px;
+    /* height: 20px;  */
+    box-shadow: 5px 3px 15px black;
+}
+.item1_1{
+   flex-grow: 1; 
+}
+.item1_2{
+    flex-grow: 1; 
+
+}
+.item1_3{
+    flex-grow: 1; 
+    background-color: yellowgreen;
+
+}
+.item1_4{
+    flex-grow: 1; 
+
+}
+.item1_5{
+    flex-grow: 1; 
+
+}
+.item1_1{
+
+}
+
+.item2{
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+     border-radius: 5px;
+    box-shadow: 5px 3px 15px black;
+    display: flex;
+    flex-flow: column wrap;
+
+
+}
+.items02{
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+      width: 100px;
+    /* height: 20px;  */
+    box-shadow: 5px 3px 15px black;
+}
+
+.item2_1{
+flex-grow: 1;
+}
+.item2_2{
+flex-grow: 1;
+}
+.item2_3{
+flex-grow: 1;
+}
+.item2_4{
+flex-grow: 1;
+}
+.item2_5{
+flex-grow: 8;
+background-color:orangered;
+}
+.item2_6{
+flex-grow: 1;
+}
+
+.box5_2{
+    background-color: lightblue;
+    display: flex;
+    flex-flow: column wrap;
+    /* flex-grow:1; */
+    box-shadow: 5px 3px 15px black;
+
+    
+} 
+.items03{
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    
+    /* height: 20px;  */
+    box-shadow: 5px 3px 15px black;
+}
+
+.item3_1{
+background-color: crimson;
+flex-grow: 1;
+}
+.item3_2{
+background-color: crimson;
+flex-grow: 1;
+}
+.item3_3{
+background-color: crimson;
+flex-grow: 1;
+}
+.item3_4{
+background-color: crimson;
+flex-grow: 10;
+}
+.item3_5{
+background-color: crimson;
+flex-grow: 1;
+}
+.item3_6{
+background-color: crimson;
+flex-grow: 1;
+}
+
+.subbox5{
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+      width: 200px;
+    
+    border-radius: 5px;
+    box-shadow: 5px 3px 15px black;
+    display: flex;
+    flex-flow: column wrap;
+    /* flex-grow: 3; */
+
+}
+
+.subbox5_1_1{
+    background-color: salmon;
+}
+.subbox5_1_2{
+    background-color: yellow;
+}
+.subbox5_1_3{
+    background-color: fuchsia;
+}
+.subbox5_1_4{
+    background-color: darkgoldenrod;
+}
+
+   
 .boxes{
     margin: 5px;
     padding: 10px;
@@ -271,5 +477,18 @@ menu ul li{
     background-color: sienna;
      /* width: 100px;
     height: 100px; */
+}
+
+.box6{
+    background-color: darkseagreen;
+    color: white;
+        text-align: center;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 5px 3px 15px black;
+        flex-direction: row;
+        flex-wrap: wrap ;
+       
 }
 
