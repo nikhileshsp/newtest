@@ -343,9 +343,10 @@ flex-grow: 1;
 .box5_2{
     background-color: lightblue;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     /* flex-grow:1; */
     box-shadow: 5px 3px 15px black;
+    height: 400px;
 
     
 } 
@@ -354,9 +355,9 @@ flex-grow: 1;
     text-align: center;
     margin: 5px;
     padding: 10px;
-    
-    /* height: 20px;  */
+ /* height: 20px;  */
     box-shadow: 5px 3px 15px black;
+    
 }
 
 .item3_1{
