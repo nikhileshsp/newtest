@@ -9,7 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
        
     
 }
@@ -17,9 +17,10 @@
     color: white;
     text-align: center;
     margin: 5px;
-    padding: 10px;
+    padding: 20px;
       width: 100px;
     height: 20px; 
+    flex-grow: 1;
     
 }
 
@@ -48,6 +49,7 @@
     /* width: 100px;
     height: 100px;
      */
+     flex-basis: 400px;
 
     
        
@@ -62,6 +64,7 @@
     background-color: sienna;
     /* width: 100px;
     height: 100px; */
+    flex-basis: 200px;
 }
 .div6{
     background-color: sienna;
@@ -74,6 +77,48 @@
     height: 100px; */
 }
 .div8{
+    background-color: sienna;
+     /* width: 100px;
+    height: 100px; */
+}
+.div9{
+    background-color: sienna;
+     /* width: 100px;
+    height: 100px; */
+    flex-basis: 700px;
+
+}
+.div10{
+    background-color: sienna;
+     /* width: 100px;
+    height: 100px; */
+    flex-basis: 270px;
+    flex-shrink: 0;
+
+}
+.div11{
+    background-color: sienna;
+     /* width: 100px;
+    height: 100px; */
+}
+.div12{
+    background-color: sienna;
+     /* width: 100px;
+    height: 100px; */
+    flex-basis: 180px;
+}
+.div13{
+    background-color: sienna;
+     /* width: 100px;
+    height: 100px; */
+}
+.div14{
+    background-color: sienna;
+     /* width: 100px;
+    height: 100px; */
+    flex-basis: 400px;
+}
+.div15{
     background-color: sienna;
      /* width: 100px;
     height: 100px; */
