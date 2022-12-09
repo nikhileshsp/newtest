@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.masterdiv{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+ 
+}
+
+aside{
+    background-color:darkgoldenrod;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    */
+    flex-basis: 0px;
+    flex-grow: 2;
+    
+    
+
+
+}
+aside a{
+    /* display: block; */
+}
+
+.maindiv{
+    margin-left: 5px;
+    background-color:turquoise;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    flex-basis: 900px;
+    flex-grow: 8;
+
+
+   
+}
+.mastermenu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.menu1{
+    display: flex;
+    justify-content: end;
+    margin: 20px 20px;
+    
+}
+.menu1 a{
+    margin: 10px;
+}
+
+.menu2{
+    display: flex;
+    justify-content: space-between;
+}
+.menu2 a{
+    margin: 10px;
+
+}
+
+
+.menu3{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.para_img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;              
+    background-color:lightgreen;
+    
+
+    
+    
+}
+
+.main{
+flex-basis: 800px;
+flex-grow: 7;
+
+}
+.image{
+background-color:limegreen;
+margin: 5px;
+    flex-basis: 200px;
+    flex-grow: 3;  
+    width: 200px;
+    height: 600px;
+}
+.image img{
+margin-left: 60px;
+}

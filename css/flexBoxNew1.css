@@ -1,12 +1,12 @@
-/* *{
+*{
     margin: 0;
     padding: 0;    
-} */
+}
 
 
 .maindiv{
-    background-color: gray;
-   border: 6px solid gray;
+    background-color:black;
+   border: 1px solid gray;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

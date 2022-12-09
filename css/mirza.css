@@ -5,29 +5,25 @@
 }
 .mastercontent{
     display: flex;
-    flex-direction: row;
     border: 2px solid darkorange;  
-    
 }
 
 aside{
 background-color:yellowgreen;
-flex-grow: 1;
+display: flex;
 flex-wrap: wrap;
-
-
 
 }
 aside a{
     display: block;
 
-
 }
 
 .maincontent{
-flex-grow: 9;
 background-color:aquamarine;
+/* margin-left: 10px; */
 flex-wrap: wrap;
+
 
 }
 
